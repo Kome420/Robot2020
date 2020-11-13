@@ -3,6 +3,19 @@ WorldInfo {
   coordinateSystem "NUE"
 }
 Viewpoint {
-  orientation -0.6931032800836722 0.6931032800836722 0.1980295085953349 0.75
-  position 1.2 1.6 2.3
+  orientation -0.5613787943109951 0.8144118265041419 0.14692592061348728 0.5773289373991126
+  position 2.902265979992698 2.590368622865319 6.839696285567674
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+TeslaModel3 {
+  controller "my_controller"
+  controllerArgs [
+    ""
+  ]
+}
+CircleArena {
+  radius 10
 }
