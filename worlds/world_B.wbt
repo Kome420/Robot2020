@@ -3,8 +3,8 @@ WorldInfo {
   coordinateSystem "NUE"
 }
 Viewpoint {
-  orientation -0.5613787943109951 0.8144118265041419 0.14692592061348728 0.5773289373991126
-  position 2.902265979992698 2.590368622865319 6.839696285567674
+  orientation -0.03727239732741402 0.9950535082790353 0.09208302807277409 2.308720558865561
+  position 10.772054998135413 4.992067254297328 -10.293628996350419
 }
 TexturedBackground {
 }
@@ -15,7 +15,12 @@ TeslaModel3 {
   controllerArgs [
     ""
   ]
+  sensorsSlotFront [
+    Camera {
+    }
+  ]
 }
 CircleArena {
-  radius 10
+  radius 50
+  wallHeight 5
 }
