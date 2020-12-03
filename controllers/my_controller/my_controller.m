@@ -33,7 +33,7 @@ while wb_robot_step(TIME_STEP) ~= -1
 
   % if your code plots some graphics, it needs to flushed like this:
   drawnow;
-
+whats up
 end
 
 % cleanup code goes here: write data to files, etc.
